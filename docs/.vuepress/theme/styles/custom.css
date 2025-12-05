@@ -77,6 +77,17 @@
   .vp-home-doc-hero .text {
     font-size: 1.4rem !important;
   }
+  
+  .actions .action {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .actions .action a.vp-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 
 .item {
