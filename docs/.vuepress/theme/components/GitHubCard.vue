@@ -26,11 +26,11 @@
         </div>
         <div class="stat-item" @click="issueRepo">
           <Icon name="octicon:issue-opened-16" size="1.2em" color="#3FB950" />
-          <span>议题 {{ repoData.issues_count }}</span>
+          <span>议题 {{ repoData.open_issues_count }}</span>
         </div>
         <div class="stat-item" @click="watchRepo">
           <Icon name="octicon:eye-16" size="1.2em" color="#3FB950" />
-          <span>关注 {{ repoData.watchers_count }}</span>
+          <span>关注 {{ repoData.subscribers_count }}</span>
         </div>
         <div class="stat-item" v-if="repoData.license" @click="viewLicense">
           <Icon name="lucide:scale" size="1.2em" />
