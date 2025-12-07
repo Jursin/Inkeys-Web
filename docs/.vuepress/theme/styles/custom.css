@@ -69,6 +69,10 @@
   font-size: 2.7rem !important;
 }
 
+.vp-home-doc-hero .tagline {
+  max-width: 500px;
+}
+
 @media screen and (max-width: 768px) {
   .vp-home-doc-hero .name {
     font-size: 2.2rem !important;
@@ -78,15 +82,12 @@
     font-size: 1.4rem !important;
   }
   
-  .actions .action {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+  .action {
+    max-width: 500px;
   }
-  
-  .actions .action a.vp-button {
-    width: 100%;
-    box-sizing: border-box;
+
+  .action .vp-button {
+    margin: 5px !important;
   }
 }
 
