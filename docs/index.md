@@ -14,19 +14,15 @@ config:
       actions:
         - theme: brand
           text: 开始下载
-          icon: material-symbols:download
           link: /download
         - theme: brand
           text: Wiki文档
-          icon: fa:wikipedia-w
           link: https://wiki.inkeys.top/
         - theme: alt
           text: 介绍视频
-          icon: mingcute:bilibili-line
           link: https://space.bilibili.com/1330313497/lists/2210199
         - theme: alt
           text: 相关链接
-          icon: material-symbols:link
           link: /link
           
   - type: features
